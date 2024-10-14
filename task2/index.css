@@ -1,0 +1,137 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fafafa;
+    color: #2E2E2E;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Section */
+header {
+    background: #003366;
+    color: #98ff98;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#about img.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    border : 2px solid;
+    border-color: #98ff98;
+    margin: 20px 0;
+}
+
+#about p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Skills Section */
+#skills {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: #98ff98;
+    color: #2E2E2E;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#projects .project {
+    margin: 20px 0;
+}
+
+#projects img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Resume Section */
+#resume {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#resume a {
+    background: #98ff98;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background: #81f881;
+}
+
+/* Contact Section */
+#contact {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #98ff98;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: #98ff98;
+    text-align: center;
+    padding: 10px 0;
+}
