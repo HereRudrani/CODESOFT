@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Call-to-action button */
+.cta-button {
+    background: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Us Section */
+#about {
+    background-color: #e3e1d4;
+    padding: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    color: #555;
+}
+
+/* Our Courses Section */
+#courses {
+    background-color: #e9f5ff;
+    padding: 40px;
+
+    text-align: center;
+}
+
+#courses h2 {
+    color: #007BFF;
+}
+
+#courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#courses li {
+    color: #333;
+    padding: 5px 0;
+}
+
+/* What Our Students Say (Testimonials) Section */
+#testimonials {
+    background-color: #fff3e6;
+    padding: 40px;
+    
+    text-align: center;
+}
+
+#testimonials h2 {
+    color: #f57c00;
+}
+
+#testimonials blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Enroll Today Section */
+#enroll {
+    background-color: #f0fff4;
+    padding: 40px;
+    
+    text-align: center;
+}
+
+#enroll h2 {
+    color: #388e3c;
+}
+
+
+
+#enroll form button {
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #85bbf4;
+}
+
+footer p {
+    color: white;
+}
